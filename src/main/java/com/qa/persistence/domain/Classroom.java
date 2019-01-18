@@ -17,8 +17,8 @@ public class Classroom {
 
 	}
 	
-	
-	public Classroom(String trainerName, Long traineeId, String traineeName) {
+	public Classroom(Long classroomId, String trainerName) {
+		this.classroomId = classroomId;
 		this.trainerName = trainerName;
 	}
 	
