@@ -12,8 +12,6 @@ public class Classroom {
 	
 	private Long classroomId;
 	private String trainerName;
-	private Long traineeId;
-	private String traineeName;
 	
 	public Classroom() {
 
@@ -22,8 +20,6 @@ public class Classroom {
 	
 	public Classroom(String trainerName, Long traineeId, String traineeName) {
 		this.trainerName = trainerName;
-		this.traineeId = traineeId;
-		this.traineeName = traineeName;
 	}
 	
 	
@@ -40,18 +36,6 @@ public class Classroom {
 	}
 	public void setTrainerName(String trainerName) {
 		this.trainerName = trainerName;
-	}
-	public Long getTraineeId() {
-		return traineeId;
-	}
-	public void setTraineeId(Long traineeId) {
-		this.traineeId = traineeId;
-	}
-	public String getTraineeName() {
-		return traineeName;
-	}
-	public void setTraineeName(String traineeName) {
-		this.traineeName = traineeName;
 	}
 	
 }
